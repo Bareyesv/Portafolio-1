@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.hero-section {
+  background-image: url("Portada.jpg");
+  background-size: cover;
+  background-position: flex-end;
+  height: 200vh;
+  display: flex-start;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+}
+
+.products {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product p {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: rgb(99, 92, 92);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

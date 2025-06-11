@@ -1,0 +1,10 @@
+/project
+│   index.html
+│   /css
+│       styles.css (archivo CSS personalizado)
+│   /img
+│       logo.png (logo de la marca)
+│   /fonts
+│       fonts.css (archivo de fuentes personalizadas)
+│   /bootstrap
+│       bootstrap.min.css (archivo Bootstrap)

@@ -1,0 +1,78 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #4a5e6b;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+#hero-section {
+  background-color: #34434d00;
+  color: #f8f8f8;
+  padding: 60px 20px;
+}
+
+#productos .card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(246, 245, 245, 0.259);
+  transition: transform 0.3s ease;
+}
+
+#productos .card:hover {
+  transform: scale(1.05);
+}
+
+.auto-size .col {
+  height: 100%;
+}
+
+.auto-size .card {
+  height: 100%;
+}
+
+#productos .card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#contacto {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contacto .form-label {
+  font-weight: bold;
+}
+.btn-primary {
+  background-color: #28313a;
+  border-color: #004494;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #004494;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+}
+.logo {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+.navbar-brand {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#custom-navbar {
+  background-color: transparent;
+  padding: 0;
+}

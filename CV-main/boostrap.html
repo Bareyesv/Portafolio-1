@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Página web de Mi Marca, productos únicos y formularios de contacto."
+    />
+    <title>Mi Marca - Mobile First</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="CSS.css" />
+    <link rel="stylesheet" href="Letras.css" />
+    <link rel="icon" href="img/logo-black.png" type="image/png" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.jpg" alt="Logo de la Marca" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Currículum Vitae</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portafolioprueba.HTML">Portafolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="container-fluid text-center py-5" id="hero-section">
+      <h1 class="display-4">Bienvenido a los mejores Cupones de Chile</h1>
+      <p class="lead">
+        Tenemos cupones de descuentos para todos los panoramas!.
+      </p>
+      <a href="#productos" class="btn btn-primary">Ver Productos</a>
+    </header>
+
+    <section id="productos" class="container">
+      <h2 class="text-center mb-4">Nuestros Cupones</h2>
+      <div class="row class auto-size">
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card">
+            <img src="img/cupon-1.jpg" class="card-img-top" alt="Producto 1" />
+            <div class="card-body">
+              <h5 class="card-title">Accesorios Decohogar</h5>
+              <p class="card-text">
+                Descuento en todos los accesorios decohar en Ikea. Un 35%
+                presentando el cupón en las tiendas Ikea.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card">
+            <img src="img/cupon-2.jpg" class="card-img-top" alt="Producto 2" />
+            <div class="card-body">
+              <h5 class="card-title">Comida peruana en PeruRestaurante</h5>
+              <p class="card-text">
+                Descuentos en todo el menú del restaurante, presentado el cupón
+                de nuestra página web recibirás un total de 20% de descuento en
+                el total de la boleta.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card">
+            <img src="img/cupon-3.jpg" class="card-img-top" alt="Producto 3" />
+            <div class="card-body">
+              <h5 class="card-title">Tratamiento Dental</h5>
+              <p class="card-text">
+                50% de descuento en todos los tratamientos dentales en
+                DienteBlancoNoTeVayas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card">
+            <img src="img/cupon-4.jpg" class="card-img-top" alt="Producto 4" />
+            <div class="card-body">
+              <h5 class="card-title">Típica Comida Chilena</h5>
+              <p class="card-text">
+                Postre gratis presentando el cupón en los restaurantes
+                TípicoChileno al pedir un Charkican.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card">
+            <img src="img/cupon-5.jpg" class="card-img-top" alt="Producto 5" />
+            <div class="card-body">
+              <h5 class="card-title">Feria de juegos</h5>
+              <p class="card-text">
+                Presentando el cupón al momento de comprar las entradas te
+                regalan una!.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card">
+            <img src="img/cupon-6.jpg" class="card-img-top" alt="Producto 6" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Viaje al sur de Chile a mitad de precio
+              </h5>
+              <p class="card-text">
+                Presentando el cupón en ViajesFalabella recibirás un viaje a
+                mitad de precio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="container mt-5">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            placeholder="Ingresa tu nombre"
+            aria-label="Nombre"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Ingresa tu email"
+            aria-label="Correo electrónico"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea
+            class="form-control"
+            id="mensaje"
+            rows="4"
+            placeholder="Escribe tu mensaje"
+            aria-label="Mensaje"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-white">
+      <p>&copy; 2025 Mi Marca. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

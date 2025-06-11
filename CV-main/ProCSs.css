@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(242, 5, 5, 0); /* Fondo negro */
+  background-image: url("bg-header.jpg"); /* Imagen de fondo */
+  background-size: cover; /* La imagen cubre toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-attachment: fixed; /* La imagen permanece fija cuando haces scroll */
+  color: white; /* Texto en blanco */
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0); /* Fondo verde con transparencia */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  margin: 0.5rem 0;
+}
+
+/* Sección de introducción con Flexbox */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo blanco translúcido */
+  color: white;
+}
+
+.intro .text {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.intro .image img {
+  max-width: 300px;
+  height: auto;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ffffff; /* Color blanco */
+  letter-spacing: 0.1em; /* Espaciado de letras */
+}
+
+/* Sección de características con íconos */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: rgb(67, 61, 61); /* Fondo translúcido */
+}
+
+.feature h2 {
+  front-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: flex;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature i {
+  font-size: 2rem;
+  color: #4caf50;
+}
+
+.feature p {
+  margin-top: 0.5rem;
+}
+
+/* Galería de imágenes con Flexbox */
+.gallery {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo translúcido */
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery-container img {
+  max-width: 30%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(51, 51, 51, 0.8); /* Fondo oscuro translúcido */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
